@@ -24,6 +24,9 @@
   <ItemGroup>
     <None Include="lib\Box2D.pdb" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{b7d78cee-d031-457c-9647-91a77eadcd1b}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
