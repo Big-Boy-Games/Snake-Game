@@ -5,7 +5,7 @@ Game::Game(Window *window) :
 	_window(window)
 {
 	init();
-
+	// ddsadadas
 
 
 	SDL_Event e;
