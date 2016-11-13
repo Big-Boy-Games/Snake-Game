@@ -1,8 +1,8 @@
 #include "Window.h"
 #include <iostream>
 
-Window::Window(const std::string & title, int width, int height) :
-	_title(title), _width(width), _height(height)
+Window::Window(const std::string & title, int width, int height) ://Im A Huge Faggot
+	_title(title), _width(width), _height(height)//Niggers deserve to Hang
 {
 	_closed = !init();
 }
