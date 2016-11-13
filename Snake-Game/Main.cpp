@@ -1,9 +1,14 @@
 #include <SDL.h>
 #undef main
+
+#include "Window.h"
+#include "Game.h"
 #include <iostream>
 
 int main(int argc, int **argv)
 {
-	std::cout << "Hello WOrld!" << std::endl;
+	Window window("Pong", 800, 600);
+
+	Game game(&window);
 	return 0;
 }
